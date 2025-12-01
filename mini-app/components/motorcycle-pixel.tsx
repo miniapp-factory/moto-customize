@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
 
 export interface MotorcyclePixelProps {
   /** The currently selected color for the motorcycle body */
@@ -58,7 +58,7 @@ export default function MotorcyclePixel({ selectedColor }: MotorcyclePixelProps)
     setCellColors((prev) =>
       prev.map((color, idx) => (isBodyCell(idx) ? selectedColor : color))
     );
-  }, [selectedColor]);
+  }, [selectedColor, isBodyCell]);
 
   // Handle cell click
   const handleCellClick = (index: number) => {
