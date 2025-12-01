@@ -262,3 +262,85 @@
 +Clear section headers for each part
 +
 +Make it look professional but keep it simple - just forms, buttons, checkboxes, and text. No 3D models or complex graphics needed."
+
+# 2025-12-01 07:02:40.428736
++"Create a motorcycle order form with customer info, bike selection, and live summary.
++Customer Info Section:
++
++Name input field
++Phone number input field
++
++Bike Selection:
++
++Dropdown with 5 options: Honda Click, Yamaha Aerox, Suzuki Raider, Kawasaki Ninja, Honda CBR
++
++Color Picker:
++
++6 color buttons: Black, White, Red, Blue, Green, Yellow
++One color selected at a time
++Show selected color name
++
++Decals Checkboxes:
++
++Racing Stripes
++Flame Design
++Tribal Pattern
++
++Accessories Checkboxes:
++
++Top Box
++Crash Guards
++LED Lights
++
++Order Summary Box:
++
++Shows all selected items in real-time
++Displays customer name and phone
++
++Buttons:
++
++Submit button (shows success message)
++Clear button (resets form)
++
++Make it clean and mobile-friendly."
+
+# 2025-12-01 07:02:40.430522
++"Create a motorcycle order form with customer info, bike selection, and live summary.
++Customer Info Section:
++
++Name input field
++Phone number input field
++
++Bike Selection:
++
++Dropdown with 5 options: Honda Click, Yamaha Aerox, Suzuki Raider, Kawasaki Ninja, Honda CBR
++
++Color Picker:
++
++6 color buttons: Black, White, Red, Blue, Green, Yellow
++One color selected at a time
++Show selected color name
++
++Decals Checkboxes:
++
++Racing Stripes
++Flame Design
++Tribal Pattern
++
++Accessories Checkboxes:
++
++Top Box
++Crash Guards
++LED Lights
++
++Order Summary Box:
++
++Shows all selected items in real-time
++Displays customer name and phone
++
++Buttons:
++
++Submit button (shows success message)
++Clear button (resets form)
++
++Make it clean and mobile-friendly."
