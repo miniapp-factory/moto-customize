@@ -40,20 +40,8 @@ export function OrderSummary({ model, color, decals, accessories, name, contact 
         {accessories.size > 0 ? Array.from(accessories).join(", ") : "None"}
       </p>
       <div className="mt-4 flex flex-col gap-2">
-        <input
-          type="text"
-          placeholder="Customer Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          className="border rounded p-2"
-        />
-        <input
-          type="tel"
-          placeholder="Contact Number"
-          value={contact}
-          onChange={(e) => setContact(e.target.value)}
-          className="border rounded p-2"
-        />
+        <p>Name: {name || "None"}</p>
+        <p>Phone: {contact || "None"}</p>
       </div>
     </div>
   );
