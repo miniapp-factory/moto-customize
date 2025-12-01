@@ -1,23 +1,17 @@
 "use client";
 
 import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
-import { useState } from "react";
 
 export interface OrderSummaryProps {
   model: string;
   color: string;
   decals: string[];
   accessories: Set<string>;
+  name: string;
+  contact: string;
 }
 
-export function OrderSummary({ model, color, decals, accessories }: OrderSummaryProps) {
-  const [name, setName] = useState("");
-  const [contact, setContact] = useState("");
-
-  const handleSubmit = () => {
-    alert("Order submitted!");
-  };
+export function OrderSummary({ model, color, decals, accessories, name, contact }: OrderSummaryProps) {
 
   return (
     <div className="border p-4 rounded w-full max-w-sm">
@@ -60,7 +54,6 @@ export function OrderSummary({ model, color, decals, accessories }: OrderSummary
           onChange={(e) => setContact(e.target.value)}
           className="border rounded p-2"
         />
-        <Button onClick={handleSubmit}>Submit Order</Button>
       </div>
     </div>
   );

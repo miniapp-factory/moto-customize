@@ -6,6 +6,7 @@ import { ColorPicker } from "@/components/color-picker";
 import { DecalLibrary } from "@/components/decal-library";
 import { AccessoriesChecklist } from "@/components/accessories-checklist";
 import { OrderSummary } from "@/components/order-summary";
+import { SaveOrderButton } from "@/components/save-order-button";
 
 export { generateMetadata };
 
@@ -14,6 +15,8 @@ export default function Home() {
   const [color, setColor] = useState<string>("");
   const [decals, setDecals] = useState<string[]>([]);
   const [accessories, setAccessories] = useState<Set<string>>(new Set());
+  const [name, setName] = useState<string>("");
+  const [contact, setContact] = useState<string>("");
 
   const handleAddDecal = (decal: string) => {
     setDecals((prev) => (prev.includes(decal) ? prev : [...prev, decal]));
@@ -26,6 +29,19 @@ export default function Home() {
       else newSet.add(accessory);
       return newSet;
     });
+  };
+
+  const handleClear = () => {
+    setModel("");
+    setColor("");
+    setDecals([]);
+    setAccessories(new Set());
+    setName("");
+    setContact("");
+  };
+
+  const handleSave = () => {
+    console.log("Order submitted:", { model, color, decals, accessories, name, contact });
   };
 
 
@@ -43,12 +59,35 @@ export default function Home() {
             selectedAccessories={accessories}
             onToggle={handleToggleAccessory}
           />
+          <input
+            type="text"
+            placeholder="Customer Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="border rounded p-2"
+          />
+          <input
+            type="tel"
+            placeholder="Contact Number"
+            value={contact}
+            onChange={(e) => setContact(e.target.value)}
+            className="border rounded p-2"
+          />
+          <SaveOrderButton onSave={handleSave} />
+          <button
+            onClick={handleClear}
+            className="mt-2 bg-red-500 text-white rounded p-2"
+          >
+            Clear
+          </button>
         </div>
         <OrderSummary
           model={model}
           color={color}
           decals={decals}
           accessories={accessories}
+          name={name}
+          contact={contact}
         />
       </div>
     </main>

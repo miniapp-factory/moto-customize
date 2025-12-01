@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 
 export interface DecalLibraryProps {
@@ -12,10 +11,8 @@ export interface DecalLibraryProps {
 export function DecalLibrary({ selectedDecals, onAddDecal }: DecalLibraryProps) {
   const decals = [
     "racing-stripes",
-    "flames",
-    "stars",
+    "flame-design",
     "tribal-pattern",
-    "number-plate",
   ];
 
   return (

@@ -14,8 +14,6 @@ export function AccessoriesChecklist({ selectedAccessories, onToggle }: Accessor
     "top-box",
     "crash-guards",
     "led-lights",
-    "custom-exhaust",
-    "phone-mount",
   ];
 
   return (
