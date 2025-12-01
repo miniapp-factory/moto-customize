@@ -7,6 +7,7 @@ import { DecalLibrary } from "@/components/decal-library";
 import { AccessoriesChecklist } from "@/components/accessories-checklist";
 import { OrderSummary } from "@/components/order-summary";
 import { SaveOrderButton } from "@/components/save-order-button";
+import MotorcyclePixel from "@/components/motorcycle-pixel";
 
 export function HomeClient() {
   const [model, setModel] = useState<string>("");
@@ -80,6 +81,7 @@ export function HomeClient() {
           name={name}
           contact={contact}
         />
+        <MotorcyclePixel selectedColor={color} />
       </div>
     </main>
   );
