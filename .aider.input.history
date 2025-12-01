@@ -126,3 +126,139 @@
 +Add 'Save Order' button
 +
 +Keep it simple and functional - focus on making these 5 features work smoothly before adding more complexity."
+
+# 2025-12-01 06:41:12.988097
++"Create a motorcycle customization order form with these features:
++1. Motorcycle Model Dropdown
++
++Add a dropdown menu with 5 motorcycle options:
++
++Honda Click 160
++Yamaha Aerox 155
++Suzuki Raider 150
++Kawasaki Ninja 400
++Honda CBR150R
++
++
++Display the selected model name in bold text below the dropdown
++
++2. Color Selection
++
++Create color buttons in a grid (3 columns, 3 rows)
++Colors: Black, White, Red, Blue, Green, Yellow, Orange, Silver, Matte Gray
++When clicked, show the selected color name and display a colored box preview
++
++3. Decal/Sticker Checkboxes
++
++Add checkboxes for decal options:
++
++☐ Racing Stripes
++☐ Flame Design
++☐ Tribal Pattern
++☐ Racing Numbers
++☐ Brand Logos
++
++
++Allow multiple selections
++
++4. Accessories Checkboxes
++
++Add checkboxes for accessories:
++
++☐ Top Box/Cargo
++☐ Crash Guards
++☐ LED Light Kit
++☐ Custom Exhaust
++☐ Phone Mount
++
++
++
++5. Order Summary Card
++
++Display a summary card that shows:
++
++Selected motorcycle model
++Chosen color with color preview box
++List of selected decals
++List of selected accessories
++Customer name input field
++Contact number input field
++
++
++Add 'Submit Order' button that shows a confirmation message
++
++6. Simple Layout
++
++Use a clean, card-based design
++Mobile-friendly responsive layout
++Clear section headers for each part
++
++Make it look professional but keep it simple - just forms, buttons, checkboxes, and text. No 3D models or complex graphics needed."
+
+# 2025-12-01 06:41:12.988881
++"Create a motorcycle customization order form with these features:
++1. Motorcycle Model Dropdown
++
++Add a dropdown menu with 5 motorcycle options:
++
++Honda Click 160
++Yamaha Aerox 155
++Suzuki Raider 150
++Kawasaki Ninja 400
++Honda CBR150R
++
++
++Display the selected model name in bold text below the dropdown
++
++2. Color Selection
++
++Create color buttons in a grid (3 columns, 3 rows)
++Colors: Black, White, Red, Blue, Green, Yellow, Orange, Silver, Matte Gray
++When clicked, show the selected color name and display a colored box preview
++
++3. Decal/Sticker Checkboxes
++
++Add checkboxes for decal options:
++
++☐ Racing Stripes
++☐ Flame Design
++☐ Tribal Pattern
++☐ Racing Numbers
++☐ Brand Logos
++
++
++Allow multiple selections
++
++4. Accessories Checkboxes
++
++Add checkboxes for accessories:
++
++☐ Top Box/Cargo
++☐ Crash Guards
++☐ LED Light Kit
++☐ Custom Exhaust
++☐ Phone Mount
++
++
++
++5. Order Summary Card
++
++Display a summary card that shows:
++
++Selected motorcycle model
++Chosen color with color preview box
++List of selected decals
++List of selected accessories
++Customer name input field
++Contact number input field
++
++
++Add 'Submit Order' button that shows a confirmation message
++
++6. Simple Layout
++
++Use a clean, card-based design
++Mobile-friendly responsive layout
++Clear section headers for each part
++
++Make it look professional but keep it simple - just forms, buttons, checkboxes, and text. No 3D models or complex graphics needed."
