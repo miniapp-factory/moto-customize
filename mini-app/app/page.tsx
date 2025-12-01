@@ -6,7 +6,6 @@ import { ColorPicker } from "@/components/color-picker";
 import { DecalLibrary } from "@/components/decal-library";
 import { AccessoriesChecklist } from "@/components/accessories-checklist";
 import { OrderSummary } from "@/components/order-summary";
-import { SaveOrderButton } from "@/components/save-order-button";
 
 export { generateMetadata };
 
@@ -29,10 +28,6 @@ export default function Home() {
     });
   };
 
-  const handleSave = () => {
-    // Placeholder for save logic
-    console.log("Order saved:", { model, color, decals, accessories: Array.from(accessories) });
-  };
 
   return (
     <main className="flex flex-col gap-4 place-items-center place-content-center px-4 grow">
@@ -48,7 +43,6 @@ export default function Home() {
             selectedAccessories={accessories}
             onToggle={handleToggleAccessory}
           />
-          <SaveOrderButton onSave={handleSave} />
         </div>
         <OrderSummary
           model={model}

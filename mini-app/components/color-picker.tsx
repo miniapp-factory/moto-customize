@@ -36,6 +36,19 @@ export function ColorPicker({ selectedColor, onSelect }: ColorPickerProps) {
           </Button>
         ))}
       </div>
+      {selectedColor && (
+        <div className="mt-2 flex items-center gap-2">
+          <div
+            style={{
+              backgroundColor: selectedColor,
+              width: 24,
+              height: 24,
+              borderRadius: 4,
+            }}
+          />
+          <span>{colors.find((c) => c.hex === selectedColor)?.name}</span>
+        </div>
+      )}
     </div>
   );
 }

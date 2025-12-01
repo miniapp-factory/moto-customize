@@ -8,8 +8,14 @@ export interface SaveOrderButtonProps {
 
 export function SaveOrderButton({ onSave }: SaveOrderButtonProps) {
   return (
-    <Button onClick={onSave} className="mt-4">
-      Save Order
+    <Button
+      onClick={() => {
+        alert("Order submitted!");
+        onSave();
+      }}
+      className="mt-4"
+    >
+      Submit Order
     </Button>
   );
 }

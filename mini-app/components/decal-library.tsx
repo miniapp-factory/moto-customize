@@ -23,13 +23,14 @@ export function DecalLibrary({ selectedDecals, onAddDecal }: DecalLibraryProps) 
       <Label>Decal Library</Label>
       <div className="flex flex-wrap gap-2">
         {decals.map((d) => (
-          <Button
-            key={d}
-            variant={selectedDecals.includes(d) ? "default" : "outline"}
-            onClick={() => onAddDecal(d)}
-          >
-            {d.replace(/-/g, " ")}
-          </Button>
+          <div key={d} className="flex items-center gap-2">
+            <Checkbox
+              id={d}
+              checked={selectedDecals.includes(d)}
+              onCheckedChange={() => onAddDecal(d)}
+            />
+            <Label htmlFor={d}>{d.replace(/-/g, " ")}</Label>
+          </div>
         ))}
       </div>
     </div>

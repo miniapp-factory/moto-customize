@@ -32,6 +32,11 @@ export function MotorcycleSelector({ selectedModel, onSelect }: MotorcycleSelect
             </SelectItem>
           ))}
         </SelectContent>
+        {selectedModel && (
+          <p className="font-bold mt-2">
+            Selected Model: {models.find((m) => m.value === selectedModel)?.label}
+          </p>
+        )}
       </Select>
     </div>
   );
