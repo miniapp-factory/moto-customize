@@ -374,3 +374,25 @@
 
 # 2025-12-01 07:54:09.267167
 +apply changes
+
+# 2025-12-01 08:02:39.857437
++dd a pixel art motorcycle display using HTML canvas. Create a 400x300 pixel canvas that shows a simple side-view motorcycle made of colored squares (each square is 10x10 pixels).
++The motorcycle should have these parts that change color:
++
++Body/tank (main color selected)
++Wheels (always black)
++Seat (always dark gray)
++Headlight (always white)
++
++When user selects a color, redraw the motorcycle body in that color. Make the motorcycle look like simple pixel art - just basic rectangular shapes to represent tank, seat, and two wheels.
+
+# 2025-12-01 08:02:39.857856
++dd a pixel art motorcycle display using HTML canvas. Create a 400x300 pixel canvas that shows a simple side-view motorcycle made of colored squares (each square is 10x10 pixels).
++The motorcycle should have these parts that change color:
++
++Body/tank (main color selected)
++Wheels (always black)
++Seat (always dark gray)
++Headlight (always white)
++
++When user selects a color, redraw the motorcycle body in that color. Make the motorcycle look like simple pixel art - just basic rectangular shapes to represent tank, seat, and two wheels.
