@@ -38,3 +38,91 @@
 +```
 +
 +Generate an app logo and update the app metadata title and description.
+
+# 2025-12-01 06:19:15.686366
++"Add these essential features to the motorcycle customization app:
++1. Motorcycle Selector
++
++Add 3-5 popular motorcycle models in a dropdown menu (Honda Click, Yamaha Aerox, Suzuki Raider, Kawasaki Ninja, Honda CBR)
++Show a clear side-view image of the selected bike
++
++2. Basic Color Picker
++
++Add a simple color palette with 8-10 common colors (Black, White, Red, Blue, Green, Yellow, Orange, Silver)
++When user clicks a color, the motorcycle image changes to that color
++
++3. Simple Decal Library
++
++Create 5-10 basic decal options (racing stripes, flames, stars, tribal pattern, number plate)
++User clicks a decal, then clicks on the bike to place it
++Allow moving the decal after placement
++
++4. Basic Accessories Checklist
++
++Add checkboxes for 5 common accessories:
++
++✓ Top box
++✓ Crash guards
++✓ LED lights
++✓ Custom exhaust
++✓ Phone mount
++
++
++
++5. Order Summary Box
++
++Show a text box that lists:
++
++Motorcycle model selected
++Color chosen
++Decals added
++Accessories checked
++
++
++Add 'Save Order' button
++
++Keep it simple and functional - focus on making these 5 features work smoothly before adding more complexity."
+
+# 2025-12-01 06:19:15.686911
++"Add these essential features to the motorcycle customization app:
++1. Motorcycle Selector
++
++Add 3-5 popular motorcycle models in a dropdown menu (Honda Click, Yamaha Aerox, Suzuki Raider, Kawasaki Ninja, Honda CBR)
++Show a clear side-view image of the selected bike
++
++2. Basic Color Picker
++
++Add a simple color palette with 8-10 common colors (Black, White, Red, Blue, Green, Yellow, Orange, Silver)
++When user clicks a color, the motorcycle image changes to that color
++
++3. Simple Decal Library
++
++Create 5-10 basic decal options (racing stripes, flames, stars, tribal pattern, number plate)
++User clicks a decal, then clicks on the bike to place it
++Allow moving the decal after placement
++
++4. Basic Accessories Checklist
++
++Add checkboxes for 5 common accessories:
++
++✓ Top box
++✓ Crash guards
++✓ LED lights
++✓ Custom exhaust
++✓ Phone mount
++
++
++
++5. Order Summary Box
++
++Show a text box that lists:
++
++Motorcycle model selected
++Color chosen
++Decals added
++Accessories checked
++
++
++Add 'Save Order' button
++
++Keep it simple and functional - focus on making these 5 features work smoothly before adding more complexity."
